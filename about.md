@@ -1,0 +1,11 @@
+## Introducing the Miss Marple Team
+
+The team is composed of students from the Kelley School of Busines College at Indiana University.  Work was done to accomplish the "AI for CyberSecurity" class.
+
+The team has the following 5 members:
+
+* James Lance <br/><img src="./media/images/jnlance.png" height="400">
+* Angela Bywaters
+* Conner Hobbs
+* Madhura (Maddy) Borse
+* Selam Siyoum
