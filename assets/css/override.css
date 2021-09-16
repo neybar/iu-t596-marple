@@ -1,5 +1,5 @@
 #marple.header {
-    background-image: url({{ '/assets/images/marple-head-100.png' | relative-url }});
+    background-image: url(../images/marple-head-100.png);
     background-repeat: no-repeat;
     padding-top: 110px;
 }
