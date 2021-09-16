@@ -1,3 +1,7 @@
+.header {
+    background-color: #333;
+}
+
 #marple.header {
     background-image: url(../images/marple-head-100.png);
     background-repeat: no-repeat;
