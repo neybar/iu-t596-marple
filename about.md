@@ -4,7 +4,7 @@ The team is composed of students from the Kelley School of Busines College at In
 
 The team has the following 5 members:
 
-* James Lance <br/><img src="./media/images/jnlance.png" height="400">
+* James Lance <br/><img src="{{ '/assets/images/jnlance.png' | relative_url }}" height="400">
 * Angela Bywaters
 * Conner Hobbs
 * Madhura (Maddy) Borse
