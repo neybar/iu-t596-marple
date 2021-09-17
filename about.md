@@ -11,6 +11,7 @@ The team has the following 5 members:
     </li>
     <li>
         <p>Conner Hobbs</p>
+        <img src="{{ '/assets/images/chobbs.jpeg' | relative_url }}" width="300">
         <p>Conner is a Technical Account Manager within the Software industry. Previously, he has worked in consulting and support for financial software companies. He has limited experience with Cybersecurity, but has worked on a few machine learning projects in the past. He also enjoys playing the guitar, banjo, and mandolin and spending time cooking and baking with his wife.</p>
     </li>
     <li>
@@ -20,6 +21,7 @@ The team has the following 5 members:
     </li>
     <li>
         <p>Madhura Borse</p>
+        <img src="{{ '/assets/images/mborse.png' | relative_url }}" width="300">
         <p>Madhura has been in the IT industry and gathered experience across different verticals and developed automation solutions. She is working as a cloud automation engineer for a start up in SoCal. She works closely with the machine learning team and is curious to learn more about AI. She will participate in the different milestones and will contribute technically to offer python-based solutions to the problems faced in AI for cybersecurity in the fintech industry. She enjoys kayaking and hiking in her free time.</p>
     </li>
     <li>
