@@ -6,6 +6,7 @@ The team has the following 5 members:
 
 * Angela Bywaters
 * Conner Hobbs
-* James Lance <br/><img src="{{ '/assets/images/jnlance.png' | relative_url }}" height="400">
+* James Lance <br/><img src="{{ '/assets/images/jnlance.png' | relative_url }}" width="300">
 * Madhura Borse
 * Selam Siyoum
+* Selam Siyoum <br/><img src="{{ '/assets/images/ssiyoum.jpeg' | relative_url }}" width="300">
