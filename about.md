@@ -1,4 +1,4 @@
-## Introducing the Miss Marple Team
+## Introducing the Marple AI Team
 
 The team is composed of students from the Kelley School of Busines College at Indiana University.  Work was done to accomplish the "AI for CyberSecurity" class.
 
