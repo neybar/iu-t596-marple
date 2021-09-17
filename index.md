@@ -4,7 +4,7 @@ Financial Technology (Fintech) is on track to be a $324 billion dollar industry 
 
 With in the Fintech world we have an entire ecosystem surrounding payment processing.  Credit Cards tend to be the darlings of payments (and rightly so), but there are other ways that vendors collect funds such as bitcoin, and credit card proxies (paypal, google pay, apple pay).
 
-<img href="{{ '/assets/images/payment_ecosystem.png' | relative_url }}" />
+<img src="{{ '/assets/images/payment_ecosystem.png' | relative_url }}" />
 
 The dark side of payment processing is fraud.  Between 2018 and 2020 fraud went from a $5.3 billion dollar a year loss to $7.2 billion dollar a year loss.  Fraud hurts your bottom line in more ways than just theft.  Your name and reputation is negatively impacted.  Your customers lose faith in your ability to keep their financial transactions safe and private.  This leads to loss of customers. Your business also losses money in the way of inventory, and charge back fees.  Charge backs occur when the victim of fraud discovers the attack and calls their bank.  When the bank clears the transaction, the funds are removed from your accounts and are given back to the victim.  The bank also charges a fee to the company that originated the charge.  If merchandise was involved in the transaction, then you are deprived of your original transaction, the chargeback fee, and any merchandise or time that was exchanged in the process.
 
