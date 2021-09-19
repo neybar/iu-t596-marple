@@ -31,22 +31,22 @@ There are many critical assets that could be targeted by attackers.  The above l
 
 ## Diamond Models
 
-<img src="{{ '/assets/images/slidedeck/Slide23' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide24' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide25' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide26' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide27' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide28' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide29' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide30' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide31' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide32' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide33' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide34' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide35' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide36' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide37' | relative_url }}" />
-<img src="{{ '/assets/images/slidedeck/Slide38' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide23.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide24.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide25.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide26.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide27.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide28.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide29.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide30.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide31.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide32.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide33.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide34.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide35.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide36.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide37.jpg' | relative_url }}" />
+<img src="{{ '/assets/images/slidedeck/Slide38.jpg' | relative_url }}" />
 
 ## Intelligence Buy-in
 
