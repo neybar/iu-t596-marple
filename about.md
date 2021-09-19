@@ -7,6 +7,7 @@ The team has the following 5 members:
 <ul>
     <li>
         <p>Angela Bywaters</p>
+        <img src="{{ '/assets/images/abywaters.png' | relative_url }}" width="300">
         <p>Angela was born and raised in Taiwan, she is a self-taught IT project manager working in a Mining and Energy (Oil and Gas) company delivering enterprise and global projects with team members across the globe. She recently delivered a Cybersecuirty project with focus on enhancement of data backup resiliency – ensuring company’s most critical business datasets, including SAP, PAM, critical network configuration files, always restore data in the event of ransomware attack. She  works long and late hours, and when she has some free time, which rarely happens, she just watch TV’s.</p>
     </li>
     <li>
