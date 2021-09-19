@@ -66,6 +66,8 @@ There are many critical assets that could be targeted by attackers.  The above l
 
 ## Intelligence Buy-in
 
+Credit card fraud was the leading type of identity theft in 4 out of the last 5 years. In 2017, around 4700 BTC were stolen due to a compromised company computer at NiceHash including accessing the VPN network with an engineer's credentials. That same year, Equifax had a data breach that exposed 147 million financial records. In 2019, 100 million Capitol One credit card applications were accessed. These are just three examples of large scale data breaches that were highly visible to the public. This begs the question, what fintech cyber attacks do the general public not know about? AI will be able to adapt to the growth of FinTech faster than humans and recognize attacks earlier and more often than humans.
+
 ### Marple AI!
 
 AI is how we get in front of fraud.  AI and Machine Learning (ML) provide us with the ability to process data at a rate that humans simply can't compete with.  With Marple you will have access to state of the art AI.  Using a variety of methods such as Generative Adversarial Networks (GAN) we can train AI to detect fraud.  We can even train fraud detection AI in ways to catch adversaries in ways they haven't even though of yet.  Of course humans are still a critical part of this process, so Marple also included fraud detention that is trained by the subject matter experts with in your business.  You can fine tune the algorithms to detect fraud while still enabling your legitimate customers to purchase your services.
