@@ -8,15 +8,16 @@ The common components in any high-tech business are:
 
 * Networks
 * Compute Resources
- * Customer facing websites
- * Customer facing applications
- * Backoffice applications
+    * Customer facing websites
+    * Customer facing applications
+    * Backoffice applications
+    * API Servers
 * Data
- * Customer (PII) Databases
- * Application Databases
- * Transaction Data
- * Files
- * Trade Secrets
+    * Customer (PII) Databases
+    * Application Databases
+    * Transaction Data
+    * Files
+    * Trade Secrets
 * Source Code for applications
 
 One of the industry standards in cybersecurity is to model out threats with the "Diamond Model of Intrusion Analysis".  
