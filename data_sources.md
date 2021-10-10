@@ -7,11 +7,34 @@ title: Date Sources
 In order to have world class AI we need world class data.  Fortunately we have access to some really high quality data.  There is also data in abundance.  Normally this would be a big problem for human analysts, but for computers and especially AI huge amounts of data becomes an asset.  The main focus then becomes the task of finding quality data, and then formatting it in a usable way.
 
 For data we have decided to turn to some well-known sources:
-* [Mitre CVE](#mitre)
 * [Github](#github)
+* [Mitre CVE](#mitre)
 * [Shodan](#shodan)
 * [Twitter](#twitter)
 * [Phishtank](#phishtank)
+
+### Github {#github}
+
+<img src="{{'/assets/images/github_logo.png' | relative_url}}" />
+
+#### Justification
+
+GitHub is a gold mine of Malware data.  In order to start really discovering what is available it is valuable to do a topic search. Each of the repos that are returned have a variable degree of value.  Some are going to be easy to use, while others are specialized and require work to format it for AI use.  The amount of work being done in the field (and stored in GitHub) is going to be critical to stay ahead of attackers
+
+Value & Volume:
+* 163 Malware topics
+* Over 3600 repos
+* Topics range from white hat to black hat activities
+* Examples are malware signatures, malware removal utilities, malware classification, targeted malware by software, etc.
+* The primary challenge will be to utilize automation to find valuable data here, and then feed that into AI that can help identify and prevent malware
+
+#### Collection Strategy
+
+For Github our primary collection strategy is going to be via the Github API.  Using the solid PyGithub library we are able to search by topic and repo to collect nearly any kind of data, and projects.  For an example we are looking specifically at how Github can provide data regarding Malware.  The use, prevention, tracking, and classification of all sorts of Malware.
+
+#### View Github Data
+
+For more details about Github data view our [Sample Data]({{ '/malware' | relative_url }})
 
 ### Mitre CVE {#mitre}
 
@@ -39,29 +62,6 @@ Web-Based Search:
 #### View CVE Data
 
 For more details about CVE data view our [Sample Data]({{ '/cve' | relative_url }})
-
-### Github {#github}
-
-<img src="{{'/assets/images/github_logo.png' | relative_url}}" />
-
-#### Justification
-
-GitHub is a gold mine of Malware data.  In order to start really discovering what is available it is valuable to do a topic search. Each of the repos that are returned have a variable degree of value.  Some are going to be easy to use, while others are specialized and require work to format it for AI use.  The amount of work being done in the field (and stored in GitHub) is going to be critical to stay ahead of attackers
-
-Value & Volume:
-* 163 Malware topics
-* Over 3600 repos
-* Topics range from white hat to black hat activities
-* Examples are malware signatures, malware removal utilities, malware classification, targeted malware by software, etc.
-* The primary challenge will be to utilize automation to find valuable data here, and then feed that into AI that can help identify and prevent malware
-
-#### Collection Strategy
-
-For Github our primary collection strategy is going to be via the Github API.  Using the solid PyGithub library we are able to search by topic and repo to collect nearly any kind of data, and projects.  For an example we are looking specifically at how Github can provide data regarding Malware.  The use, prevention, tracking, and classification of all sorts of Malware.
-
-#### View Github Data
-
-For more details about Github data view our [Sample Data]({{ '/malware' | relative_url }})
 
 ### Shodan {#shodan}
 <img src="{{'/assets/images/shodan.jpg' | relative_url}}" />
