@@ -7,8 +7,13 @@ title: Date Sources
 In order to have world class AI we need world class data.  Fortunately we have access to some really high quality data.  There is also data in abundance.  Normally this would be a big problem for human analysts, but for computers and especially AI huge amounts of data becomes an asset.  The main focus then becomes the task of finding quality data, and then formatting it in a usable way.
 
 For data we have decided to turn to some well-known sources:
+* [Mitre CVE](#mitre)
+* [Github](#github)
+* [Shodan](#shodan)
+* [Twitter](#twitter)
+* [Phishtank](#phishtank)
 
-### Mitre CVE
+### Mitre CVE {#mitre}
 
 <img src="{{'/assets/images/cvelogobanner.png' | relative_url}}" />
 
@@ -35,7 +40,7 @@ Web-Based Search:
 
 For more details about CVE data view our [Sample Data]({{ '/cve' | relative_url }})
 
-### Github
+### Github {#github}
 
 <img src="{{'/assets/images/github_logo.png' | relative_url}}" />
 
@@ -58,7 +63,7 @@ For Github our primary collection strategy is going to be via the Github API.  U
 
 For more details about Github data view our [Sample Data]({{ '/malware' | relative_url }})
 
-### Shodan
+### Shodan {#shodan}
 <img src="{{'/assets/images/shodan.jpg' | relative_url}}" />
 
 #### Justification
@@ -81,9 +86,9 @@ Using search filters is the best way to search on Shodan quickly and efficiently
 * Premium Accounts: A premium account is a one-time payment it gives you increased access to the API. Full details and docs are available at [https://developer.shodan.io](https://developer.shodan.io).
 ** With a premium account you also have access to REST and Streaming APIs.  This is the best way for automated collection stragegies.
 
-### Twitter
+### Twitter {#twitter}
 
-<img src="{{'/assets/images/twitter_logo.png' | relative_url}}" />
+<img src="{{'/assets/images/twitter_logo.png' | relative_url}}" width="325px" />
 
 #### Justification
 
@@ -100,7 +105,7 @@ Twitter provides a fantastic amount of data.  Really the only reasonable way to 
 
 <img src="{{'/assets/images/twitter_api.png' | relative_url}}" />
 
-### Phishtank and AZSecure Data
+### Phishtank and AZSecure Data {#phishtank}
 
 <img src="{{'/assets/images/phishtank.gif' | relative_url}}" />
 
