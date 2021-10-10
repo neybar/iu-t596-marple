@@ -26,13 +26,13 @@ $(document).ready(function() {
             dataSrc: ''
         },
         columns: [
-            { data: 'Product', title: 'Product' },
-            { data: 'CVE ID', title: 'CVE ID' },
-            { data: 'Vulnerability Types(s)', title: 'Vulnerability Type(s)' },
-            { data: 'Publish Date', title: 'Publish Date' },
-            { data: 'Score', title: 'Score' },
-            { data: 'Complexity', title: 'Complexity' },
-            { data: 'Description',
+            { data: 'product', title: 'Product' },
+            { data: 'cve_id', title: 'CVE ID' },
+            { data: 'vulnerability_type', title: 'Vulnerability Type(s)' },
+            { data: 'publish_date', title: 'Publish Date' },
+            { data: 'score', title: 'Score' },
+            { data: 'complexity', title: 'Complexity' },
+            { data: 'description',
               title: 'Description',
               render: function (data, type) {
                 return type === 'display' && data.length > 40 ? 
