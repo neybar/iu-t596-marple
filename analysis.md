@@ -13,7 +13,7 @@ Here are some of the analysis that we did:
 * [Twitter Sentiment Analysis](#twitter-sentiment-analysis)
 * [Phishing Predictive Analysis](#phishing-predictive-analysis)
 * [Shodan Data Mining](#shodan-data-mining)
-* [CVE and EPSS Analysis](#cvs-and-epss-analysis)
+* [CVE and EPSS Analysis](#cve-and-epss-analysis)
 
 ### Github Topic Analysis (Pre-AI Vis) {#github_wordcloud}
 
