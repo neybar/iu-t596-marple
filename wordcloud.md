@@ -8,4 +8,4 @@ title: Topic Wordcloud
 
 ## Twitter Wordcloud based on sentiment analysis for Bitcoin
 
-<img src="{{'/assets/images/twitter-wordcloud.png' | relative_url}}" />
+<img src="{{'/assets/images/twitter_wordcloud.png' | relative_url}}" />
