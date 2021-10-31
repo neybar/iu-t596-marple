@@ -67,11 +67,10 @@ Our analysis for Twitter is to do a Sentiment Analysis.  Similar to the Github d
 
 With the clean, pre-processed data we wanted to look at two axis for our Sentiment Analysis.  One axis is subjectivity.  We gave a score of 0 for tweets that are fact, a score of +1 indicates a tweet that is an opinion.  Our next axis is polarity.  A score of -1 inticates a tweet with negative sentiment, and a +1 indicates a tweet with a positive sentiment.
 
-We hope to see results that favor factual events and that have a high polarity.  We'd like to see polarity at either end (-1, +1) meaning that there is engagement.  Tweents that receive polarity scores of near 0 probably aren't going to be very meaning ful to us.
+To show a comparison on how we expect this analysis to run, but lacking enough twitter data relating to cybersecurity, we ran a test on data regarding CryptoCurrency.
 
-This reasearch is on going and there are no visualizations available at this time.
-
-We did however get a twitter dataset relating to bitcoin.  We created a [wordcloud]({{'/wordcloud' | relative_url}}) based on a topic analysis which you can see.
+First we created a [wordcloud]({{'/wordcloud' | relative_url}}) based on a topic analysis.
+Next we did our sentiment analysis.  You can [see those visualizations here]({{'/twitter_vis' | relative_url}}).
 
 ### Phishing Predictive Analysis
 
