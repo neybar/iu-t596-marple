@@ -70,6 +70,7 @@ With the clean, pre-processed data we wanted to look at two axis for our Sentime
 To show a comparison on how we expect this analysis to run, but lacking enough twitter data relating to cybersecurity, we ran a test on data regarding CryptoCurrency.
 
 First we created a [wordcloud]({{'/wordcloud' | relative_url}}) based on a topic analysis.
+
 Next we did our sentiment analysis.  You can [see those visualizations here]({{'/twitter_vis' | relative_url}}).
 
 ### Phishing Predictive Analysis
