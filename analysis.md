@@ -117,8 +117,8 @@ Although the attempt to conduct classification analysis did not succeed and the 
 * Naive Bayes gave a 92% accuracy rate and the overall performance metrics for Recall, F-Measure and TP-Rate was 0.92
 * The following images show the visualization of the different attributes after the data is loaded in WEKA.
 
-<img src="{{'/assets/images/cvs_analysis_type.png' | relative_url}}"
-<img src="{{'/assets/images/cvs_analysis_class.png' | relative_url}}"
+<img src="{{'/assets/images/cvs_analysis_type.png' | relative_url}}" />
+<img src="{{'/assets/images/cvs_analysis_class.png' | relative_url}}" />
 
 
 
