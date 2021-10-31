@@ -1,0 +1,479 @@
+[
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2021-1636",
+    "vulnerability_type": "Sql Injection",
+    "publish_date": "1/12/2021",
+    "score": 6.5,
+    "complexity": "Low",
+    "description": "Microsoft SQL Elevation of Privilege Vulnerability"
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2020-0618",
+    "vulnerability_type": "Exec Code",
+    "publish_date": "2/11/2020",
+    "score": 6.5,
+    "complexity": "Low",
+    "description": "A remote code execution vulnerability exists in Microsoft SQL Server Reporting Services when it incorrectly handles page requests, aka 'Microsoft SQL Server Reporting Services Remote Code Execution Vulnerability'."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2019-1068",
+    "vulnerability_type": "Exec Code",
+    "publish_date": "7/15/2019",
+    "score": 6.5,
+    "complexity": "Low",
+    "description": "A remote code execution vulnerability exists in Microsoft SQL Server when it incorrectly handles processing of internal functions, aka 'Microsoft SQL Server Remote Code Execution Vulnerability'."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2018-8273",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "8/15/2018",
+    "score": 10,
+    "complexity": "Low",
+    "description": "A buffer overflow vulnerability exists in the Microsoft SQL Server that could allow remote code execution on an affected system, aka \"Microsoft SQL Server Remote Code Execution Vulnerability.\" This affects Microsoft SQL Server."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2015-1763",
+    "vulnerability_type": "Exec Code",
+    "publish_date": "7/14/2015",
+    "score": 8.5,
+    "complexity": "Medium",
+    "description": "Microsoft SQL Server 2008 SP3 and SP4, 2008 R2 SP2 and SP3, 2012 SP1 and SP2, and 2014 does not prevent use of uninitialized memory in certain attempts to execute virtual functions, which allows remote authenticated users to execute arbitrary code via a crafted query, aka \"SQL Server Remote Code Execution Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2015-1762",
+    "vulnerability_type": "Exec Code",
+    "publish_date": "7/14/2015",
+    "score": 7.1,
+    "complexity": "High",
+    "description": "Microsoft SQL Server 2008 SP3 and SP4, 2008 R2 SP2 and SP3, 2012 SP1 and SP2, and 2014, when transactional replication is configured, does not prevent use of uninitialized memory in unspecified function calls, which allows remote authenticated users to execute arbitrary code by leveraging certain permissions and making a crafted query, as demonstrated by the VIEW SERVER STATE permission, aka \"SQL Server Remote Code Execution Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2014-4061",
+    "vulnerability_type": "DoS",
+    "publish_date": "8/12/2014",
+    "score": 6.8,
+    "complexity": "Low",
+    "description": "Microsoft SQL Server 2008 SP3, 2008 R2 SP2, and 2012 SP1 does not properly control use of stack memory for processing of T-SQL batch commands, which allows remote authenticated users to cause a denial of service (daemon hang) via a crafted T-SQL statement, aka \"Microsoft SQL Server Stack Overrun Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2012-1856",
+    "vulnerability_type": "Exec Code",
+    "publish_date": "8/15/2012",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "The TabStrip ActiveX control in the Common Controls in MSCOMCTL.OCX in Microsoft Office 2003 SP3, Office 2003 Web Components SP3, Office 2007 SP2 and SP3, Office 2010 SP1, SQL Server 2000 SP4, SQL Server 2005 SP4, SQL Server 2008 SP2, SP3, R2, R2 SP1, and R2 SP2, Commerce Server 2002 SP4, Commerce Server 2007 SP2, Commerce Server 2009 Gold and R2, Host Integration Server 2004 SP1, Visual FoxPro 8.0 SP1, Visual FoxPro 9.0 SP2, and Visual Basic 6.0 Runtime allows remote attackers to execute arbitrary code via a crafted (1) document or (2) web page that triggers system-state corruption, aka \"MSCOMCTL.OCX RCE Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2012-0158",
+    "vulnerability_type": "Exec Code",
+    "publish_date": "4/10/2012",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "The (1) ListView, (2) ListView2, (3) TreeView, and (4) TreeView2 ActiveX controls in MSCOMCTL.OCX in the Common Controls in Microsoft Office 2003 SP3, 2007 SP2 and SP3, and 2010 Gold and SP1; Office 2003 Web Components SP3; SQL Server 2000 SP4, 2005 SP4, and 2008 SP2, SP3, and R2; BizTalk Server 2002 SP1; Commerce Server 2002 SP4, 2007 SP2, and 2009 Gold and R2; Visual FoxPro 8.0 SP1 and 9.0 SP2; and Visual Basic 6.0 Runtime allow remote attackers to execute arbitrary code via a crafted (a) web site, (b) Office document, or (c) .rtf file that triggers \"system state\" corruption, as exploited in the wild in April 2012, aka \"MSCOMCTL.OCX RCE Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2009-3126",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "10/14/2009",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "Integer overflow in GDI+ in Microsoft Internet Explorer 6 SP1, Windows XP SP2 and SP3, Office XP SP3, Office 2003 SP3, 2007 Microsoft Office System SP1 and SP2, Office Project 2002 SP1, Visio 2002 SP2, Office Word Viewer, Word Viewer 2003 Gold and SP3, Office Excel Viewer 2003 Gold and SP3, Office Excel Viewer, Office PowerPoint Viewer 2007 Gold, SP1, and SP2, Office Compatibility Pack for Word, Excel, and PowerPoint 2007 File Formats SP1 and SP2, Expression Web, Expression Web 2, Groove 2007 Gold and SP1, Works 8.5, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2 and SP3, Report Viewer 2005 SP1, Report Viewer 2008 Gold and SP1, and Forefront Client Security 1.0 allows remote attackers to execute arbitrary code via a crafted PNG image file, aka \"GDI+ PNG Integer Overflow Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2009-2528",
+    "vulnerability_type": "Exec Code Mem. Corr.",
+    "publish_date": "10/14/2009",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "GDI+ in Microsoft Office XP SP3 does not properly handle malformed objects in Office Art Property Tables, which allows remote attackers to execute arbitrary code via a crafted Office document that triggers memory corruption, aka \"Memory Corruption Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2009-2504",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "10/14/2009",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "Multiple integer overflows in unspecified APIs in GDI+ in Microsoft .NET Framework 1.1 SP1, .NET Framework 2.0 SP1 and SP2, Windows XP SP2 and SP3, Windows Server 2003 SP2, Vista Gold and SP1, Server 2008 Gold, Office XP SP3, Office 2003 SP3, 2007 Microsoft Office System SP1 and SP2, Office Project 2002 SP1, Visio 2002 SP2, Office Word Viewer, Word Viewer 2003 Gold and SP3, Office Excel Viewer 2003 Gold and SP3, Office Excel Viewer, Office PowerPoint Viewer 2007 Gold, SP1, and SP2, Office Compatibility Pack for Word, Excel, and PowerPoint 2007 File Formats SP1 and SP2, Expression Web, Expression Web 2, Groove 2007 Gold and SP1, Works 8.5, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2 and SP3, Report Viewer 2005 SP1, Report Viewer 2008 Gold and SP1, and Forefront Client Security 1.0 allow remote attackers to execute arbitrary code via (1) a crafted XAML browser application (XBAP), (2) a crafted ASP.NET application, or (3) a crafted .NET Framework application, aka \"GDI+ .NET API Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2009-2503",
+    "vulnerability_type": "Exec Code Mem. Corr.",
+    "publish_date": "10/14/2009",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "GDI+ in Microsoft Internet Explorer 6 SP1, Windows XP SP2 and SP3, Windows Server 2003 SP2, Office XP SP3, Office 2003 SP3, 2007 Microsoft Office System SP1 and SP2, Office Project 2002 SP1, Visio 2002 SP2, Office Word Viewer, Word Viewer 2003 Gold and SP3, Office Excel Viewer 2003 Gold and SP3, Office Excel Viewer, Office PowerPoint Viewer 2007 Gold, SP1, and SP2, Office Compatibility Pack for Word, Excel, and PowerPoint 2007 File Formats SP1 and SP2, Expression Web, Expression Web 2, Groove 2007 Gold and SP1, Works 8.5, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2 and SP3, Report Viewer 2005 SP1, Report Viewer 2008 Gold and SP1, and Forefront Client Security 1.0 does not properly allocate an unspecified buffer, which allows remote attackers to execute arbitrary code via a crafted TIFF image file that triggers memory corruption, aka \"GDI+ TIFF Memory Corruption Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2009-2502",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "10/14/2009",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "Buffer overflow in GDI+ in Microsoft Internet Explorer 6 SP1, Windows XP SP2 and SP3, Office XP SP3, Office 2003 SP3, 2007 Microsoft Office System SP1 and SP2, Office Project 2002 SP1, Visio 2002 SP2, Office Word Viewer, Word Viewer 2003 Gold and SP3, Office Excel Viewer 2003 Gold and SP3, Office Excel Viewer, Office PowerPoint Viewer 2007 Gold, SP1, and SP2, Office Compatibility Pack for Word, Excel, and PowerPoint 2007 File Formats SP1 and SP2, Expression Web, Expression Web 2, Groove 2007 Gold and SP1, Works 8.5, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2 and SP3, Report Viewer 2005 SP1, Report Viewer 2008 Gold and SP1, and Forefront Client Security 1.0 allows remote attackers to execute arbitrary code via a crafted TIFF image file, aka \"GDI+ TIFF Buffer Overflow Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2009-2501",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "10/14/2009",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "Heap-based buffer overflow in GDI+ in Microsoft Internet Explorer 6 SP1, Windows XP SP2 and SP3, Office XP SP3, Office 2003 SP3, 2007 Microsoft Office System SP1 and SP2, Office Project 2002 SP1, Visio 2002 SP2, Office Word Viewer, Word Viewer 2003 Gold and SP3, Office Excel Viewer 2003 Gold and SP3, Office Excel Viewer, Office PowerPoint Viewer 2007 Gold, SP1, and SP2, Office Compatibility Pack for Word, Excel, and PowerPoint 2007 File Formats SP1 and SP2, Expression Web, Expression Web 2, Groove 2007 Gold and SP1, Works 8.5, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2 and SP3, Report Viewer 2005 SP1, Report Viewer 2008 Gold and SP1, and Forefront Client Security 1.0 allows remote attackers to execute arbitrary code via a crafted PNG image file, aka \"GDI+ PNG Heap Overflow Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2009-2500",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "10/14/2009",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "Integer overflow in GDI+ in Microsoft Internet Explorer 6 SP1, Windows XP SP2 and SP3, Office XP SP3, Office 2003 SP3, 2007 Microsoft Office System SP1 and SP2, Office Project 2002 SP1, Visio 2002 SP2, Office Word Viewer, Word Viewer 2003 Gold and SP3, Office Excel Viewer 2003 Gold and SP3, Office Excel Viewer, Office PowerPoint Viewer 2007 Gold, SP1, and SP2, Office Compatibility Pack for Word, Excel, and PowerPoint 2007 File Formats SP1 and SP2, Expression Web, Expression Web 2, Groove 2007 Gold and SP1, Works 8.5, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2 and SP3, Report Viewer 2005 SP1, Report Viewer 2008 Gold and SP1, and Forefront Client Security 1.0 allows remote attackers to execute arbitrary code via a crafted WMF image file, aka \"GDI+ WMF Integer Overflow Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2008-5416",
+    "vulnerability_type": "DoS Exec Code Overflow",
+    "publish_date": "12/10/2008",
+    "score": 9,
+    "complexity": "Low",
+    "description": "Heap-based buffer overflow in Microsoft SQL Server 2000 SP4, 8.00.2050, 8.00.2039, and earlier; SQL Server 2000 Desktop Engine (MSDE 2000) SP4; SQL Server 2005 SP2 and 9.00.1399.06; SQL Server 2000 Desktop Engine (WMSDE) on Windows Server 2003 SP1 and SP2; and Windows Internal Database (WYukon) SP2 allows remote authenticated users to cause a denial of service (access violation exception) or execute arbitrary code by calling the sp_replwritetovarbin extended stored procedure with a set of invalid parameters that trigger memory overwrite, aka \"SQL Server sp_replwritetovarbin Limited Memory Overwrite Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2008-4110",
+    "vulnerability_type": "DoS Exec Code Overflow",
+    "publish_date": "9/16/2008",
+    "score": 7.6,
+    "complexity": "High",
+    "description": "Buffer overflow in the SQLVDIRLib.SQLVDirControl ActiveX control in Tools\\Binn\\sqlvdir.dll in Microsoft SQL Server 2000 (aka SQL Server 8.0) allows remote attackers to cause a denial of service (browser crash) or possibly execute arbitrary code via a long URL in the second argument to the Connect method. NOTE: this issue is not a vulnerability in many environments, since the control is not marked as safe for scripting and would not execute with default Internet Explorer settings."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2008-3015",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "9/11/2008",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "Integer overflow in gdiplus.dll in GDI+ in Microsoft Office XP SP3, Office 2003 SP2 and SP3, 2007 Microsoft Office System Gold and SP1, Visio 2002 SP2, PowerPoint Viewer 2003, Works 8, Digital Image Suite 2006, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2, Report Viewer 2005 SP1 and 2008, and Forefront Client Security 1.0 allows remote attackers to execute arbitrary code via a BMP image file with a malformed BitMapInfoHeader that triggers a buffer overflow, aka \"GDI+ BMP Integer Overflow Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2008-3014",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "9/11/2008",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "Buffer overflow in gdiplus.dll in GDI+ in Microsoft Internet Explorer 6 SP1, Windows XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, Office XP SP3, Office 2003 SP2 and SP3, 2007 Microsoft Office System Gold and SP1, Visio 2002 SP2, PowerPoint Viewer 2003, Works 8, Digital Image Suite 2006, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2, Report Viewer 2005 SP1 and 2008, and Forefront Client Security 1.0 allows remote attackers to execute arbitrary code via a malformed WMF image file that triggers improper memory allocation, aka \"GDI+ WMF Buffer Overrun Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2008-3013",
+    "vulnerability_type": "Exec Code",
+    "publish_date": "9/11/2008",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "gdiplus.dll in GDI+ in Microsoft Internet Explorer 6 SP1, Windows XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, Office XP SP3, Office 2003 SP2 and SP3, 2007 Microsoft Office System Gold and SP1, Visio 2002 SP2, PowerPoint Viewer 2003, Works 8, Digital Image Suite 2006, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2, Report Viewer 2005 SP1 and 2008, and Forefront Client Security 1.0 allows remote attackers to execute arbitrary code via a malformed GIF image file containing many extension markers for graphic control extensions and subsequent unknown labels, aka \"GDI+ GIF Parsing Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2008-3012",
+    "vulnerability_type": "Exec Code Overflow Mem. Corr.",
+    "publish_date": "9/11/2008",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "gdiplus.dll in GDI+ in Microsoft Internet Explorer 6 SP1, Windows XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, Office XP SP3, Office 2003 SP2 and SP3, 2007 Microsoft Office System Gold and SP1, Visio 2002 SP2, PowerPoint Viewer 2003, Works 8, Digital Image Suite 2006, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2, Report Viewer 2005 SP1 and 2008, and Forefront Client Security 1.0 does not properly perform memory allocation, which allows remote attackers to execute arbitrary code via a malformed EMF image file, aka \"GDI+ EMF Memory Corruption Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2007-5348",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "9/11/2008",
+    "score": 9.3,
+    "complexity": "Medium",
+    "description": "Integer overflow in GDI+ in Microsoft Internet Explorer 6 SP1, Windows XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, Office XP SP3, Office 2003 SP2 and SP3, 2007 Microsoft Office System Gold and SP1, Visio 2002 SP2, PowerPoint Viewer 2003, Works 8, Digital Image Suite 2006, SQL Server 2000 Reporting Services SP2, SQL Server 2005 SP2, Report Viewer 2005 SP1 and 2008, and Forefront Client Security 1.0 allows remote attackers to execute arbitrary code via an image file with crafted gradient sizes in gradient fill input, which triggers a heap-based buffer overflow related to GdiPlus.dll and VGX.DLL, aka \"GDI+ VML Buffer Overrun Vulnerability."
+  },
+  {
+    "product": "Oracle Database",
+    "cve_id": "CVE-2008-2600",
+    "vulnerability_type": "",
+    "publish_date": "7/15/2008",
+    "score": 6.5,
+    "complexity": "Low",
+    "description": "Unspecified vulnerability in the Oracle Spatial component in Oracle Database 10.1.0.5, 10.2.0.3, and 11.1.0.6 has unknown impact and remote authenticated attack vectors related to MDSYS.SDO_TOPO_MAP."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2008-0107",
+    "vulnerability_type": "Exec Code Overflow Mem. Corr.",
+    "publish_date": "7/8/2008",
+    "score": 9,
+    "complexity": "Low",
+    "description": "Integer underflow in SQL Server 7.0 SP4, 2000 SP4, 2005 SP1 and SP2, 2000 Desktop Engine (MSDE 2000) SP4, 2005 Express Edition SP1 and SP2, and 2000 Desktop Engine (WMSDE); Microsoft Data Engine (MSDE) 1.0 SP4; and Internal Database (WYukon) SP2 allows remote authenticated users to execute arbitrary code via a (1) SMB or (2) WebDAV pathname for an on-disk file (aka stored backup file) with a crafted record size value, which triggers a heap-based buffer overflow, aka \"SQL Server Memory Corruption Vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2008-0106",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "7/8/2008",
+    "score": 9,
+    "complexity": "Low",
+    "description": "Buffer overflow in Microsoft SQL Server 2005 SP1 and SP2, and 2005 Express Edition SP1 and SP2, allows remote authenticated users to execute arbitrary code via a crafted insert statement."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2008-0086",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "7/8/2008",
+    "score": 9,
+    "complexity": "Low",
+    "description": "Buffer overflow in the convert function in Microsoft SQL Server 2000 SP4, 2000 Desktop Engine (MSDE 2000) SP4, and 2000 Desktop Engine (WMSDE) allows remote authenticated users to execute arbitrary code via a crafted SQL expression."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2007-5090",
+    "vulnerability_type": "",
+    "publish_date": "9/26/2007",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Unspecified vulnerability in IBM Rational ClearQuest (CQ), when a Microsoft SQL Server or an IBM DB2 database is used, allows attackers to corrupt data via unspecified vectors."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2007-4814",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "9/11/2007",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflow in the SQLServer ActiveX control in the Distributed Management Objects OLE DLL (sqldmo.dll) 2000.085.2004.00 in Microsoft SQL Server Enterprise Manager 8.05.2004 allows remote attackers to execute arbitrary code via a long second argument to the Start method."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2003-0232",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "8/27/2003",
+    "score": 7.2,
+    "complexity": "Low",
+    "description": "Microsoft SQL Server 7, 2000, and MSDE allows local users to execute arbitrary code via a certain request to the Local Procedure Calls (LPC) port that leads to a buffer overflow."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2003-0230",
+    "vulnerability_type": "#NAME?",
+    "publish_date": "8/27/2003",
+    "score": 7.2,
+    "complexity": "Low",
+    "description": "Microsoft SQL Server 7, 2000, and MSDE allows local users to gain privileges by hijacking a named pipe during the authentication of another user, aka the \"Named Pipe Hijacking\" vulnerability."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-1145",
+    "vulnerability_type": "#NAME?",
+    "publish_date": "10/28/2002",
+    "score": 10,
+    "complexity": "Low",
+    "description": "The xp_runwebtask stored procedure in the Web Tasks component of Microsoft SQL Server 7.0 and 2000, Microsoft Data Engine (MSDE) 1.0, and Microsoft Desktop Engine (MSDE) 2000 can be executed by PUBLIC, which allows an attacker to gain privileges by updating a webtask that is owned by the database owner through the msdb.dbo.mswebtasks table, which does not have strong permissions."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-1138",
+    "vulnerability_type": "",
+    "publish_date": "10/11/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Microsoft SQL Server 7.0 and 2000, including Microsoft Data Engine (MSDE) 1.0 and Microsoft Desktop Engine (MSDE) 2000, writes output files for scheduled jobs under its own privileges instead of the entity that launched it, which allows attackers to overwrite system files, aka \"Flaw in Output File Handling for Scheduled Jobs."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-1137",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "10/11/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflow in the Database Console Command (DBCC) that handles user inputs in Microsoft SQL Server 7.0 and 2000, including Microsoft Data Engine (MSDE) 1.0 and Microsoft Desktop Engine (MSDE) 2000, allows attackers to execute arbitrary code via a long SourceDB argument in a \"non-SQL OLEDB data source\" such as FoxPro, a variant of CAN-2002-0644."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-1123",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "9/24/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflow in the authentication function for Microsoft SQL Server 2000 and Microsoft Desktop Engine (MSDE) 2000 allows remote attackers to execute arbitrary code via a long request to TCP port 1433, aka the \"Hello\" overflow."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0982",
+    "vulnerability_type": "Exec Code",
+    "publish_date": "9/24/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Microsoft SQL Server 2000 SP2, when configured as a distributor, allows attackers to execute arbitrary code via the @scriptfile parameter to the sp_MScopyscript stored procedure."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0721",
+    "vulnerability_type": "",
+    "publish_date": "9/5/2002",
+    "score": 10,
+    "complexity": "Low",
+    "description": "Microsoft SQL Server 7.0 and 2000 installs with weak permissions for extended stored procedures that are associated with helper functions, which could allow unprivileged users, and possibly remote attackers, to run stored procedures with administrator privileges via (1) xp_execresultset, (2) xp_printstatements, or (3) xp_displayparamstmt."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0859",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "9/5/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflow in the OpenDataSource function of the Jet engine on Microsoft SQL Server 2000 allows remote attackers to execute arbitrary code."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0649",
+    "vulnerability_type": "DoS Exec Code Overflow",
+    "publish_date": "8/12/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Multiple buffer overflows in the Resolution Service for Microsoft SQL Server 2000 and Microsoft Desktop Engine 2000 (MSDE) allow remote attackers to cause a denial of service or execute arbitrary code via UDP packets to port 1434 in which (1) a 0x04 byte that causes the SQL Monitor thread to generate a long registry key name, or (2) a 0x08 byte with a long string causes heap corruption, as exploited by the Slammer/Sapphire worm."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0645",
+    "vulnerability_type": "Exec Code Sql",
+    "publish_date": "8/12/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "SQL injection vulnerability in stored procedures for Microsoft SQL Server 2000 and Microsoft Desktop Engine (MSDE) 2000 may allow authenticated users to execute arbitrary commands."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0644",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "8/12/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflow in several Database Consistency Checkers (DBCCs) for Microsoft SQL Server 2000 and Microsoft Desktop Engine (MSDE) 2000 allows members of the db_owner and db_ddladmin roles to execute arbitrary code."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0641",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "7/23/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflow in bulk insert procedure of Microsoft SQL Server 2000, including Microsoft SQL Server Desktop Engine (MSDE) 2000, allows attackers with database administration privileges to execute arbitrary code via a long filename in the BULK INSERT query."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0624",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "7/23/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflow in the password encryption function of Microsoft SQL Server 2000, including Microsoft SQL Server Desktop Engine (MSDE) 2000, allows remote attackers to gain control of the database and execute arbitrary code via SQL Server Authentication, aka \"Unchecked Buffer in Password Encryption Procedure."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0642",
+    "vulnerability_type": "#NAME?",
+    "publish_date": "7/23/2002",
+    "score": 7.2,
+    "complexity": "Low",
+    "description": "The registry key containing the SQL Server service account information in Microsoft SQL Server 2000, including Microsoft SQL Server Desktop Engine (MSDE) 2000, has insecure permissions, which allows local users to gain privileges, aka \"Incorrect Permission on SQL Server Service Account Registry Key."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0187",
+    "vulnerability_type": "Sql XSS",
+    "publish_date": "7/3/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Cross-site scripting vulnerability in the SQLXML component of Microsoft SQL Server 2000 allows an attacker to execute arbitrary script via the root parameter as part of an XML SQL query, aka \"Script Injection via XML Tag."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0186",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "7/3/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflow in the SQLXML ISAPI extension of Microsoft SQL Server 2000 allows remote attackers to execute arbitrary code via data queries with a long content-type parameter, aka \"Unchecked Buffer in SQLXML ISAPI Extension."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0154",
+    "vulnerability_type": "DoS Exec Code Overflow",
+    "publish_date": "5/16/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflows in extended stored procedures for Microsoft SQL Server 7.0 and 2000 allow remote attackers to cause a denial of service or execute arbitrary code via a database query with certain long arguments."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2002-0056",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "3/8/2002",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflow in SQL Server 7.0 and 2000 allows remote attackers to execute arbitrary code via a long OLE DB provider name to (1) OpenDataSource or (2) OpenRowset in an ad hoc connection."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2001-0542",
+    "vulnerability_type": "Exec Code Overflow",
+    "publish_date": "12/20/2001",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Buffer overflows in Microsoft SQL Server 7.0 and 2000 allow attackers with access to SQL Server to execute arbitrary code through the functions (1) raiserror, (2) formatmessage, or (3) xp_sprintf. NOTE: the C runtime format string vulnerability reported in MS01-060 is identified by CVE-2001-0879."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2001-0344",
+    "vulnerability_type": "#NAME?",
+    "publish_date": "7/21/2001",
+    "score": 7.2,
+    "complexity": "Low",
+    "description": "An SQL query method in Microsoft SQL Server 2000 Gold and 7.0 using Mixed Mode allows local database users to gain privileges by reusing a cached connection of the sa administrator account."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2000-0199",
+    "vulnerability_type": "",
+    "publish_date": "3/14/2000",
+    "score": 7.2,
+    "complexity": "Low",
+    "description": "When a new SQL Server is registered in Enterprise Manager for Microsoft SQL Server 7.0 and the \"Always prompt for login name and password\" option is not set, then the Enterprise Manager uses weak encryption to store the login ID and password."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-2000-0202",
+    "vulnerability_type": "#NAME?",
+    "publish_date": "3/8/2000",
+    "score": 7.5,
+    "complexity": "Low",
+    "description": "Microsoft SQL Server 7.0 and Microsoft Data Engine (MSDE) 1.0 allow remote attackers to gain privileges via a malformed Select statement in an SQL query."
+  },
+  {
+    "product": "Sql Server",
+    "cve_id": "CVE-1999-1556",
+    "vulnerability_type": "#NAME?",
+    "publish_date": "6/29/1998",
+    "score": 7.2,
+    "complexity": "Low",
+    "description": "Microsoft SQL Server 6.5 uses weak encryption for the password for the SQLExecutiveCmdExec account and stores it in an accessible portion of the registry, which could allow local users to gain privileges by reading and decrypting the CmdExecAccount value."
+  }
+]

@@ -13,6 +13,7 @@ Here are some of the analysis that we did:
 * [Twitter Sentiment Analysis](#twitter-sentiment-analysis)
 * [Phishing Predictive Analysis](#phishing-predictive-analysis)
 * [Shodan Data Mining](#shodan-data-mining)
+* [CVE and EPSS Analysis](#cvs-and-epss-analysis)
 
 ### Github Topic Analysis (Pre-AI Vis) {#github_wordcloud}
 
@@ -52,7 +53,7 @@ The analysis that we wanted to perform was a reduction technique using the LDA (
 
 Once the data was in good shape we ran it through the LDA model.  
 
-You can [see the LDA visualization here]({{'/github_readme_vis' | relative_url}}).
+You can [see the LDA visualization here]({{'/github_readme' | relative_url}}).
 
 This analysis was less useful than we had hoped.  It really reinforced the initial findings in the wordcloud.  It showed that the repos indeed were interested in malware and other cybersecurity topics.
 
@@ -98,3 +99,27 @@ Our approach here was use Shodan.io to:
 * Unfortunately, being unable to complete the above two steps the attempt to use Shodan data for predicative analysis was unsuccessful...
 
 Although the attempt to conduct classification analysis did not succeed and the outcomes seemed to be fruitless. However, the exercise itself has provided an invaluable lesson to me for future study. Analytical tools are made available to assist with modeling and perform analysis, while data collection and data pre-processing are critical preparation in order to leverage the strength of the various analytics approaches and tools.
+
+### CVE and EPSS Analysis
+
+* It is very hard to patch all open and critical vulnerabilities in the system. Therefore, an intelligent way of prioritizing them is necessary.
+* The latest research at Blackhat unveiled Exploit Prediction Scoring System (EPSS)” model
+* EPSS provides a new capability for efficient, data-driven vulnerability management. It uses current threat information from CVE and real-world exploit data.
+* Data-driven prioritization of vulnerabilities can be made based on a combination of EPSS and CVSS scores.
+* CVE data related to our critical assets database and source code was downloaded from [www.cvedetails.com](www.cvedetails.com) and was filtered out per type and score.
+* Exploit Prediction Scoring System (EPSS) data for all CVEs since January 1, 2017 -- over 60,000, was downloaded in a .csv format from [https://www.first.org/epss/data_stats](https://www.first.org/epss/data_stats)
+* Data collected from these 2 sources were imported into SQL database tables.
+* A correlation between CVE and EPSS data was made by querying from the 2 tables based on CVEID
+* To classify the vulnerabilities, the data was converted into a feature matrix.
+* The data was then exported in .csv format and was imported into the WEKA machine learning tool for classification.​ The file contains 1694 instances and 5 attributes.
+* Risk attribute was selected in WEKA to classify the vulnerabilities as High, Medium and Low risk based on the CVSS and EPSS scores
+* The model was tested using hold-out and cross-validation methods by switching different algorithms such as Naive Bayes and Random Forest. 
+* Naive Bayes gave a 92% accuracy rate and the overall performance metrics for Recall, F-Measure and TP-Rate was 0.92
+* The following images show the visualization of the different attributes after the data is loaded in WEKA.
+
+<img src="{{'/assets/images/cvs_analysis_type.png' | relative_url}}"
+<img src="{{'/assets/images/cvs_analysis_class.png' | relative_url}}"
+
+
+
+

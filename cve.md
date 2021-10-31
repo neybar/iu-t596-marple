@@ -26,20 +26,11 @@ $(document).ready(function() {
             dataSrc: ''
         },
         columns: [
-            { data: 'product', title: 'Product' },
-            { data: 'cve_id', title: 'CVE ID' },
-            { data: 'vulnerability_type', title: 'Vulnerability Type(s)' },
-            { data: 'publish_date', title: 'Publish Date' },
-            { data: 'score', title: 'Score' },
-            { data: 'complexity', title: 'Complexity' },
-            { data: 'description',
-              title: 'Description',
-              render: function (data, type) {
-                return type === 'display' && data.length > 40 ? 
-                                '<span title="'+data+'">'+data.substr(0,38)+'...</span>' : 
-                                data;
-                }
-            },
+            { data: 'CVEId', title: 'CVE ID' },
+            { data: 'VulnerabilityType', title: 'Vulnerability Type(s)' },
+            { data: 'CVSS', title: 'CVSS' },
+            { data: 'EPSS', title: 'EPSS' },
+            { data: 'Risk', title: 'Risk' },
         ]
     } );
 })
