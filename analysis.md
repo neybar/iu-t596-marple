@@ -70,6 +70,8 @@ We hope to see results that favor factual events and that have a high polarity. 
 
 This reasearch is on going and there are no visualizations available at this time.
 
+We did however get a twitter dataset relating to bitcoin.  We created a [wordcloud]({{'/wordcloud' | relative_url}}) based on a topic analysis which you can see.
+
 ### Phishing Predictive Analysis
 
 Phishing is the targeted approach of gathering sensitive data from victims.  For this effort we focused in on phishing websites, esspecially ones that targeted gathering financial information.
