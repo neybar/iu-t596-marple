@@ -25,16 +25,12 @@ title: Operational Intelligence
 	*  New malware files should be run through software like Cuckoo Sandbox.
 	*  Resulting signatures should be shared with the community (Github)
 
-#### Future of the Platform
-
 ### Twitter
 
 #### Recommendations
 * The tweets made by cryptocurrency influencers contain statistically significant information about the future value of Bitcoin.
 * This information can then be used to create profitable trading strategies.
 * Lastly the results of sentiment analysis performed on BTC datasets thesis contribute to existing literature on predicting Bitcoin prices and fills the gap of using sentiment analysis on tweets made by opinion leaders as well as strengthening the use case for using sentiment analysis in forecasting.
-
-#### Future of the Platform
 
 ### CVE
 
@@ -46,4 +42,20 @@ title: Operational Intelligence
 * Organizations that are part of the integrated payment system and partner financial institutions need to be informed about the high-risk vulnerabilities identified by our AI4Cyber platform.
 * This will help them apply the same remedy to defend the critical assets shared between the entire payment systems.
 
-#### Future of the Platform
+## Future of the Platform
+
+AI4Cyber is one of the few tools we must use to get ahead of hackers.
+
+Through building an AI4Cyber platform in this project, we have learnt that it is possible to achieve better cybersecurity results with the use of AI. But there is still room for improvement.
+
+These are the next steps in enhancing our AI4Cyber platform:
+
+* Get live date feeds through API integration with different data sources
+* Work as a community to create bigger and better malware classification libraries
+* Continue improving the performance of the trained predictive models to increase the accuracy level:
+    * Work with more classification algorithms.  Especially as our data set gets larger
+    * Automate responses to positive classifications
+    * Adjust model so that it can run on more platforms:
+        * Multiple OS, Network OS, Embedded OS
+* Determine if Sentiment Analysis results continue to hold in varying pricing environments.
+* Additionally, more complex models, and not just linear ones like we used, could be fit using  tweet volumes and social media as inputs to see if results could be improved further.
